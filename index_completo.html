@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Il Paradiso Ayurveda</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fffaf5;
+      color: #3e3e3e;
+    }
+    header {
+      background-color: #f3e5dc;
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #7a5c4d;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #5e5e5e;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: #7a5c4d;
+      border-bottom: 2px solid #e0cfc2;
+      padding-bottom: 5px;
+    }
+    ul, table {
+      margin-bottom: 30px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+    }
+    .button {
+      display: inline-block;
+      background-color: #a97c66;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: 'Roboto', sans-serif;
+    }
+    input[type="submit"] {
+      background-color: #a97c66;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #8c6452;
+    }
+    footer {
+      background-color: #f3e5dc;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #5e5e5e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Il Paradiso Ayurveda</h1>
+    <p>Benvenuti nel nostro spazio di relax e armonia</p>
+  </header>
+
+  <div class="container">
+    <h2>I nostri trattamenti</h2>
+    <p>
+      Offriamo massaggi olistici personalizzati per aiutarti a ritrovare equilibrio e serenità. Ogni trattamento è pensato per sciogliere le tensioni, liberare la mente e favorire il rilassamento profondo.
+    </p>
+    <ul>
+      <li>Massaggio rilassante con oli essenziali</li>
+      <li>Massaggio decontratturante</li>
+      <li>Riflessologia plantare</li>
+      <li>Massaggio energetico</li>
+      <li>Aromaterapia e tecniche naturali</li>
+    </ul>
+
+    <h2>Chi siamo</h2>
+    <p>
+      Nel cuore del benessere nasce <strong>Il Paradiso Ayurveda</strong>, uno spazio dedicato alla cura del corpo e dell’anima.<br>
+      Crediamo nella bellezza dei gesti semplici, nell’energia delle piante e nella saggezza delle tradizioni orientali.<br>
+      Ogni trattamento è un viaggio interiore, pensato per riequilibrare, rigenerare e risvegliare sensazioni dimenticate.<br>
+      Con passione, professionalità e amore, accompagniamo ogni persona in un percorso di rilassamento profondo e autentico.
+    </p>
+
+    <h2>Listino Prezzi</h2>
+    <table>
+      <tr><td>Carezza di vaniglia</td><td>50 min</td><td>€60</td></tr>
+      <tr><td>Massaggio cioccolato e vaniglia</td><td>30 min</td><td>€45</td></tr>
+      <tr><td>Massaggio viso all’acido jaluronico</td><td>45 min</td><td>€40</td></tr>
+    </table>
+
+    <a class="button" href="https://wa.me/393401234567" target="_blank">Prenota su WhatsApp</a>
+
+    <h2>Galleria Trattamenti</h2>
+    <div class="gallery">
+      <div><img src="massaggio1.jpg" alt="Massaggio 1" /></div>
+      <div><img src="massaggio2.jpg" alt="Massaggio 2" /></div>
+      <div><img src="massaggio3.jpg" alt="Massaggio 3" /></div>
+    </div>
+
+    <h2>Contatti & Pagamenti</h2>
+    <ul>
+      <li>📱 WhatsApp: <a href="https://wa.me/393271854261">393 271 854261</a></li>
+      <li>💳 Carta (SumUp): <a href="https://pay.sumup.com/b2c/QGYAFUB6">Paga ora</a></li>
+      <li>💰 PayPal: <a href="mailto:narcisolucia96@gmail.com">narcisolucia96@gmail.com</a></li>
+      <li>📮 Postepay: 4023 6010 4449 6164 – Narciso Lucia</li>
+    </ul>
+
+    <h2>Contattaci direttamente</h2>
+    <form action="mailto:narcisolucia96@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Il tuo nome" required>
+      <input type="email" name="email" placeholder="La tua email" required>
+      <textarea name="messaggio" rows="4" placeholder="Scrivi il tuo messaggio qui..." required></textarea>
+      <input type="submit" value="Invia messaggio">
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Il Paradiso Ayurveda – Tutti i diritti riservati
+  </footer>
+</body>
+</html>
